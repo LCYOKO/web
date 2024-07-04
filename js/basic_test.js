@@ -23,3 +23,26 @@ const obj = {
 }
 
 obj.printName()
+
+
+function testFunc() {
+    console.log("hello world");
+}
+
+function foo(x) {
+    if (x > 100) {
+        var tmp = x - 100;
+    }
+    console.log(tmp)
+}
+
+foo(123);
+console.log(testFunc.name, testFunc.length)
+
+
+var obj = {x: 1};
+console.log(obj.valueOf())
+
+console.info("info");
+console.warn("warn");
+console.error("error");
